@@ -1,0 +1,106 @@
+@font-face {
+font-family: "ChocolateBox"; 
+src: url("../fonts/ChocolateBox/C_BOX.TTF") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+font-family: "Poppins"; 
+src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+			
+
+body{
+	font-family: "Poppins"; 
+	margin: 0;
+	background-color: #000;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1173px;
+}
+.nav{
+	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	padding-top: 3px;
+ 	color: #fff;
+ 	padding-bottom: 5px;
+ 	border-bottom: 1px solid #fff;
+}
+.slogan{
+	width: 391px;
+}
+.logo{
+	width: 20px;
+}
+.register{
+	display: flex;
+	justify-content: space-between;
+}
+.register__icon img{
+	padding-left: 33px;
+}
+.entrance{
+	padding-left: 46px;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	line-height: 9px;
+	padding: 22px 0;
+	border-bottom: 1px solid #fff;
+	
+}
+.menu__link{
+	font-family: "ChocolateBox";
+	color: #fff;
+	text-decoration: none;
+}
+.menu__link:hover{
+color: #E2B024;	
+transition: color 0.2s ease-in;
+}
+.main{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    padding-top: 190px;
+}
+.main__text{
+font-size: 16px;
+line-height: 24px;
+width: 745px;
+text-align: center;
+font-size: 16px;
+line-height: 24px;
+}
+.main__title{
+	font-family: "ChocolateBox";
+font-size: 96px;
+line-height: 56px;
+}
+.main__subtitle{
+	font-family: "ChocolateBox";
+	font-size: 24px;
+line-height: 14px;
+}
+.main__link{
+	font-family: "ChocolateBox";
+	padding-top: 35px;
+	color: #E2B024;
+	font-size: 16px;
+line-height: 9px;
+text-transform: uppercase;
+
+}
+.orange{
+	color: #E2B024;
+}
