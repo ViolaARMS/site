@@ -1,14 +1,14 @@
 @font-face {
-font-family: "ChocolateBox"; 
-src: url("../fonts/ChocolateBox/C_BOX.TTF") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
+	font-family: "ChocolateBox"; 
+	src: url("../fonts/ChocolateBox/C_BOX.TTF") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
 } 
 @font-face {
-font-family: "Poppins"; 
-src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
+	font-family: "Poppins"; 
+	src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
 } 
 
 			
@@ -75,32 +75,110 @@ transition: color 0.2s ease-in;
     padding-top: 190px;
 }
 .main__text{
-font-size: 16px;
-line-height: 24px;
-width: 745px;
-text-align: center;
-font-size: 16px;
-line-height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	width: 745px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
 }
 .main__title{
 	font-family: "ChocolateBox";
-font-size: 96px;
-line-height: 56px;
+	font-size: 96px;
+	line-height: 56px;
 }
 .main__subtitle{
 	font-family: "ChocolateBox";
 	font-size: 24px;
-line-height: 14px;
+	line-height: 14px;
 }
 .main__link{
 	font-family: "ChocolateBox";
 	padding-top: 35px;
 	color: #E2B024;
 	font-size: 16px;
-line-height: 9px;
-text-transform: uppercase;
-
+	line-height: 9px;
+	text-transform: uppercase;
 }
 .orange{
 	color: #E2B024;
+}
+.product__title{
+	color: #fff;
+	font-family:"ChocolateBox" ;
+	font-size: 48px;
+}
+/****************product**************/
+.product-text{
+	padding-top: 150px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 50px;
+}
+.product__menu{
+	border-bottom: 2px solid #fff;
+}
+.product__menu-link{
+	margin-right: 72px;
+	font-size: 24px;
+	line-height: 36px;
+	text-decoration: none;
+	padding-bottom: 1.4px;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+.product__menu-link:last-child{
+	margin-right: 0;
+}
+.product__menu-link:hover{
+	color: #E2B024;
+	border-bottom: 2px solid #E2B024;
+	transition: color 0.2s ease-in;
+}
+.grade{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+.grade__cart{
+	position: relative;
+	width: 240px;
+	height: 430px;
+	margin-top: 100px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grade__cart-img{
+	height: 365px;
+}
+.grade__cart-title{
+	color: #fff;
+	font-size: 24px;
+	line-height: 14px;
+}
+.price{
+	height: 36px;
+	display: flex;
+    align-items: center;
+}
+.price__old{
+	text-decoration: line-through;
+	font-size: 16px;
+}
+.price__new{
+	font-size: 24px;
+}
+.price__cart{
+	position: absolute;
+	left: 0;
+	top: 15px;
+	background-color: #E2B024;
+	text-align: center;
+    padding: 10px 0;
+	width: 80px;
+	color: #000;
+	font-size: 14px;
+	line-height: 21px;
 }
