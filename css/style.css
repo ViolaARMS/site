@@ -368,6 +368,9 @@ color: #E2B024;
 	font-size: 16px;
 	line-height: 34px;
 }
+.footer__block a:hover{
+	color: #E2B024;
+}
 .footer__social{
 	display: flex;
     justify-content: space-between;
